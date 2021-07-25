@@ -1,0 +1,25 @@
+Build a tic-tac-toe game on the command line where two human players can play against each other 
+and the board is displayed in between turns.
+
+Problems: 
+1. XXXXX player input verification XXXXX
+2. XXXXX displaying the board XXXXX
+3. XXXXX changing game board XXXXX
+4. XXXXX determining the end of the game, either by one player winning with 3 symbols in a row 
+    or by running out of board space without a winner. XXXXX
+5. XXXXX add function to play again XXXXX
+
+
+------ Program steps -------
+1. display rules 
+2. have players input their names, store those 
+3. display initial board 
+4. (in a loop) on alternating turns, have players input the space they want to place their symbol 
+5. apply input verification and error handling to deal with non-usable inputs. 
+6. display new board between turns with the previous players move. 
+7. check board for winning state
+8. continue until the game is over (end loop)
+9. display winner 
+10. option to play again. option to change players. 
+
+
