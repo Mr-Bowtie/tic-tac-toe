@@ -1,3 +1,5 @@
+require_relative './player.rb'
+
 class Computer < Player
   attr_accessor :board, :name
 
